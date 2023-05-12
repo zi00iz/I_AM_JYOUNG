@@ -1,0 +1,67 @@
+.nav{
+    height: 100px;                       /* nav의 박스크기 */
+    background-color: black;
+    border-bottom: 1px solid black;   /* nav박스 밑에 검은 줄*/
+    display: flex;                      /*nav 요소들 정렬*/
+    align-items: center                 /*박스 안에서 정렬 -> 상단 중간 하단?*/
+}
+.nav-text{
+    margin-left: 20px;
+    color: rgb(255, 134, 13);
+}
+.nav-menu{
+    display: flex;                      /* 요소 정렬*/
+    margin-left: auto;     
+    margin-right: 10px;          /*right-margin 으로부터 10px 여백을 가짐*/
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color:white;
+}
+a:hover{
+    color:rgb(255, 134, 13);
+}
+a{
+    text-decoration-line: none;
+}
+
+.menu-items{
+    margin-right: 10px;
+    color: white;
+    
+}
+
+.content{
+    background-color: rgb(255, 212, 143);
+}
+
+.IAM{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    /* background-color: orange; */
+}
+.IAM>h1{
+    text-align: center;
+}
+.TMI{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    /* background-color: skyblue; */
+}
+.TMI>h1{
+    text-align: center;
+}
+.bong{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    /* background-color: violet; */
+}
+.bong>h1{
+    text-align: center;
+}
